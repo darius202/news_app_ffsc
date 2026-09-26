@@ -1,0 +1,15 @@
+name: news_backend
+description: Backend JWT (auth + proxy NewsAPI) pour l'application news_app_ffsc.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  dart_jsonwebtoken: ^2.14.0
+  crypto: ^3.0.6
+  http: ^1.2.2
+  uuid: ^4.5.1
